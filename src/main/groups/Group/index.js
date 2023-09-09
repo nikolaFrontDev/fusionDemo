@@ -1,6 +1,6 @@
 
 import { useSelector } from "react-redux";
-import Sidebar from "../../shared-components/Sidebar";
+import Sidebar from "../../shared-components/sidebar";
 import LayoutBox from "../../shared-components/LayoutBox";
 import GroupForm from "../GroupForm";
 import EditGroupForm from "../GroupFormEdit";

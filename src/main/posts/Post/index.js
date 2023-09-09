@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Post.module.css";
-import Sidebar from "../../shared-components/Sidebar";
+import Sidebar from "../../shared-components/sidebar";
 import PostBackdrop from "../PostBackdrop";
 import PostDateSearch from "../PostDateSearch";
 import PostHeader from "../PostHeader/PostHeader";

@@ -4,7 +4,7 @@ import FormLayoutSurvey from "../SurveyFormLayout";
 import ViewSurveys from "../SurveyView";
 import PreviewSurvey from "../SurveyPreview";
 import { useSelector } from "react-redux";
-import Sidebar from "../../shared-components/Sidebar";
+import Sidebar from "../../shared-components/sidebar";
 const SurveyCreate = () => {
   const surveys = useSelector((state) => state.surveysSlice.surveys);
   return (

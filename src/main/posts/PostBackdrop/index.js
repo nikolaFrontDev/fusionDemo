@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Backdrop from "../../shared-components/Backdrop";
-import ModalOverlay from "../../shared-components/ModalOverlay";
+import Backdrop from "../../shared-components/backdrop";
+import ModalOverlay from "../../shared-components/modalOverlay";
 
 
 

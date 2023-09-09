@@ -3,7 +3,7 @@ import FusionLogo from "../../../img/green-power.png";
 import { useDispatch, useSelector } from "react-redux";
 import { postActions } from "../../../redux/reducers/post-slice";
 import { postsActions } from "../../../redux/reducers/posts-slice";
-import Sidebar from "../../shared-components/Sidebar";
+import Sidebar from "../../shared-components/sidebar";
 import LayoutBox from "../../shared-components/LayoutBox";
 import Header from "../../shared-components/Header";
 import Input from "../../shared-components/Input";

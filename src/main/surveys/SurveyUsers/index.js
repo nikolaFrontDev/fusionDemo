@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./SurveyUsers.module.css";
-import Sidebar from "../../shared-components/Sidebar";
+import Sidebar from "../../shared-components/sidebar";
 import ChooseSurvey from "../SurveySelection";
 import ChooseUsers from "../SurveyChooseUsers";
 import LayoutBox from "../../shared-components/LayoutBox";

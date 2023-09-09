@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Sidebar from '../../shared-components/Sidebar'
+import Sidebar from '../../shared-components/sidebar'
 import LayoutBox from '../../shared-components/LayoutBox'
 import GroupCreateUser from '../GroupCreateUser'
 import GroupUserEdit from '../GroupUserEdit'
