@@ -1,0 +1,147 @@
+.titleaddQuestion {
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.searchUsers {
+  width: 100%;
+  height: 45px;
+  padding-left: 20px;
+  border: none;
+  color: #494a4a;
+  background-color: #ecf0f3;
+  outline: none;
+  box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #ffffff;
+  font-size: large;
+}
+
+.clear-icon {
+  position: absolute;
+  padding: 30px 10px 15px 15px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.clear-icon:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.clear-icon::after {
+  content: "X";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  background-color: #c8c8c8;
+  z-index: 1;
+  right: 35px;
+  bottom: 0;
+  top: 0px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  color: #484848;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.clear-icon-hide {
+  display: none;
+}
+.borderaddQuestionnaire {
+  background-color: #ecf0f3;
+  box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #fff;
+  border: none;
+  width: 100%;
+  overflow: auto;
+  height: 250px;
+}
+.forget {
+  margin-top: 15px;
+  margin-left: 5%;
+}
+.forget .checkbox-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 22px;
+}
+.forget .checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  height: 19px;
+  width: 20px;
+  background-color: #ecf0f3;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 3px 3px 3px #cbced1, inset -3px -3px 3px #ffff;
+}
+.checkbox-label input:checked ~ .checkbox-custom {
+  background-color: #ecf0f3;
+  border-radius: 5px;
+  -webkit-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: none;
+  box-shadow: -4px -4px 4px #feffff, 4px 4px 4px #161b1d2f;
+}
+.checkbox-label .checkbox-custom::after {
+  position: absolute;
+  content: "";
+  left: 10px;
+  top: 10px;
+  height: 0px;
+  width: 0px;
+  border-radius: 5px;
+  border: solid #635f5f;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+.checkbox-label input:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 7px;
+  top: 3px;
+  width: 4px;
+  height: 8px;
+  border: solid #635f5f;
+  border-width: 0 2px 2px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+.usersAddQuestions {
+  position: relative;
+  left: 8%;
+  font-weight: bold;
+  color: #494a4a;
+}
+.faiconsforuser-s{
+    position: relative;
+    left: 10%;
+    font-weight: bold;
+    color: #494a4a;
+    top: 12%; 
+}

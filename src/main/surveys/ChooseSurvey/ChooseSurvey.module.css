@@ -1,0 +1,96 @@
+.borderaddQuestionnaire {
+  background-color: #ecf0f3;
+  box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #fff;
+  border: none;
+  width: 100%;
+  overflow: auto;
+  height: 250px;
+}
+
+.forgetradio {
+  margin-top: 15px;
+  margin-left: 5%;
+}
+.forgetradio .fg a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #8f8c8c;
+  line-height: 24px;
+}
+.forgetradio .fg {
+  display: inline-block;
+  margin-left: 58%;
+  font-size: 12px;
+}
+.fg {
+  margin-left: 30% !important;
+}
+.forgetradio .fg:hover {
+  text-decoration: underline;
+  text-decoration-color: #b4b8b8;
+}
+.forgetradio .radio-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+}
+.forgetradio .radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.radio-label .radio-custom {
+  position: absolute;
+  left: 0px;
+  height: 19px;
+  width: 20px;
+  background-color: #ecf0f3;
+  border-radius: 30px;
+  border: none;
+  box-shadow: inset 3px 3px 3px #cbced1, inset -3px -3px 3px #ffff;
+}
+.radio-label input:checked ~ .radio-custom {
+  background-color: #ecf0f3;
+  border-radius: 30px;
+  -webkit-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: none;
+  box-shadow: -4px -4px 4px #feffff, 4px 4px 4px #161b1d2f;
+}
+.radio-label .radio-custom::after {
+  position: absolute;
+  content: "";
+  height: 0px;
+  width: 0px;
+  border-radius: 30px;
+  border: solid #635f5f;
+  border-width: 3px 5px 3px 5px;
+  -webkit-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+.radio-label input:checked ~ .radio-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  width: 8px;
+  height: 10px;
+  border: solid #bbb7b7;
+  border-width: 9px 7px 3px 5px;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.usersAddQuestions {
+  position: relative;
+  left: 8%;
+  font-weight: bold;
+  color: #494a4a;
+}
