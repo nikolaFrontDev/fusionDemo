@@ -1,0 +1,25 @@
+.log {
+  width: 50px;
+  display: inline-block;
+  margin-top: -2%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.titleGroupForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12%;
+  margin-bottom: 12%;
+}
+.searchUsers {
+  width: 100%;
+  height: 45px;
+  padding-left: 20px;
+  border: none;
+  color: #494a4a;
+  background-color: #ecf0f3;
+  outline: none;
+  box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #ffffff;
+  font-size: large;
+}

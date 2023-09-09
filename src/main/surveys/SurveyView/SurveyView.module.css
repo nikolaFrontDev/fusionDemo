@@ -1,0 +1,62 @@
+
+.boxPreview {
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 40px 40px;
+    border-radius: 35px;
+    background-color: #ecf0f3;
+    box-shadow: -8px -8px 8px #feffff, 8px 8px 8px #161b1d2f;
+    width: 700px;
+  }
+  .searchPoll {
+    width: 100%;
+    height: 45px;
+    padding-left: 20px;
+    border: none;
+    color: #494a4a;
+    background-color: #ecf0f3;
+    outline: none;
+    box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #ffffff;
+    font-size: large;
+  }
+  .clearinput {
+    position: absolute;
+    padding: 30px 10px 15px 15px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+  }
+  .clearinput:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .clearinput::after {
+    content: "X";
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    background-color: #c8c8c8;
+    z-index: 1;
+    right: 35px;
+    bottom: 0;
+    top: 0px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .clearinputhide {
+    display: none;
+  }
+  

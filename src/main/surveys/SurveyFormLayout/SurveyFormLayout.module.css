@@ -1,0 +1,65 @@
+.box{
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 40px 40px;
+    min-width: 755px;
+    border-radius: 35px;
+    background-color: #ecf0f3;
+    box-shadow: -8px -8px 8px #feffff, 8px 8px 8px #161b1d2f;
+    width: 800px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.log {
+	width: 50px;
+	display: inline-block;
+	margin-top: -2%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.btnAdminSave {
+    width: 50%;
+    height: 38px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #15a362;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: -5px -5px 8px #d8e2e6, 5px 5px 10px #2c313378;
+    transition: 0.8s;
+  }
+  .btnAdminSave:hover {
+    background-color: #196844;
+    color: white !important;
+  }
+
+  .btnAdminReset {
+    width: 50%;
+    height: 38px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #899791;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: -5px -5px 8px #d8e2e6, 5px 5px 10px #2c313378;
+    transition: 0.8s;
+  }
+
+  .btnAdminReset:hover {
+  background-color: #595d5b;
+  color: white !important;
+}

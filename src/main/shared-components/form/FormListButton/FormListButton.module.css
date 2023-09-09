@@ -1,0 +1,115 @@
+.boxforusers {
+  background-color: #ecf0f3;
+  box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #fff;
+  border: none;
+  width: 100%;
+  overflow: auto;
+  height: 250px;
+}
+
+.bordertwo {
+  display: flex;
+  margin-top: 10px;
+}
+
+.forget {
+  width: 49%;
+}
+.forget .fg a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #8f8c8c;
+  line-height: 24px;
+}
+.forget .fg {
+  display: inline-block;
+  margin-left: 58%;
+  font-size: 12px;
+}
+.fg {
+  margin-left: 30% !important;
+}
+.forget .fg:hover {
+  text-decoration: underline;
+  text-decoration-color: #b4b8b8;
+}
+.forget .checkbox-label {
+  font-size: 22px;
+  line-height: 22px;
+}
+.forget .checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 125%;
+}
+.forget .checkbox-label {
+  font-size: 22px;
+  line-height: 22px;
+}
+.forget .checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 125%;
+}
+.UsersforList {
+  position: relative;
+  left: 15px;
+  top: 3px;
+  font-weight: bold;
+  color: #494a4a;
+  word-break: break-word;
+}
+.btns {
+  width: 49%;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+}
+.updateBtn {
+  width: 35%;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  right: 10px;
+  background: #efefef;
+  border: none;
+  border-radius: 0.5rem;
+  color: #444;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.updateBtn:hover {
+  background-color: #c0cad8;
+}
+.editicon {
+  width: 23px;
+  height: 23px;
+}
+.removeBtn {
+  width: 35%;
+  position: relative;
+  background: #efefef;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.removeBtn:hover {
+  background-color: #c0cad8;
+}

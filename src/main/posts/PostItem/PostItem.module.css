@@ -1,0 +1,16 @@
+.settingsOfrow {
+  vertical-align: top;
+}
+.settingsOfrow:hover {
+  background-color: rgb(163 177 198 / 60%);
+  cursor: pointer;
+}
+.nameCenter {
+  text-align: center;
+}
+.nameJustify {
+  text-align: justify;
+}
+.msgusers {
+  cursor: pointer;
+}

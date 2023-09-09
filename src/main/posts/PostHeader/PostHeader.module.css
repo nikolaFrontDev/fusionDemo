@@ -1,0 +1,90 @@
+.postcontent {
+  display: flex;
+  max-height: 40%;
+  flex-direction: column;
+}
+@media only screen and (max-width: 560px) {
+  .postcontent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxpost {
+    margin-top: 5px;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .postcontent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxpost {
+    margin-top: 5px;
+    width: 400px;
+  }
+  .datetimepost {
+    width: 50px;
+  }
+}
+.borderformsg {
+  overflow: auto;
+  max-height: 500px;
+  box-shadow: 9px 9px 16px rgb(163 177 198 / 60%),
+    -9px -9px 16px rgb(255 255 255 / 60%);
+  width: 150%;
+  margin-top: 10%;
+}
+
+table.neumorphic {
+  width: 100%;
+  border-spacing: 0;
+  color: #212121;
+  text-align: center;
+  overflow-x: clip;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+th:first-child {
+  width: 20%;
+}
+th:nth-child(2) {
+  width: 150px;
+}
+th:nth-child(3) {
+  width: 10%;
+}
+th:nth-child(4) {
+  width: 20%;
+}
+th:last-child {
+  width: 15%;
+}
+table.neumorphic thead {
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+  position: sticky;
+  inset-block-start: 0;
+  background: #e6eaeb;
+  z-index: 1;
+}
+
+table.neumorphic th {
+  padding: 7px;
+}
+table.neumorphic > tbody > tr > td {
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
+}
+table.neumorphic tr td:first-child::before {
+  content: "";
+  position: absolute;
+  padding: 7px;
+  top: 0;
+  left: -5000px;
+  width: 10000px;
+  height: 100%;
+  z-index: -10;
+}

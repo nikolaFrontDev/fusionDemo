@@ -1,0 +1,68 @@
+.forgetBtnsPoll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.plots {
+  padding: 22px;
+  font-weight: bold;
+  color: #494a4a;
+}
+.btns {
+  display: flex;
+  gap: 10px 20px;
+  width: 40%;
+  justify-content: end;
+  padding: 20px;
+}
+.btnAdminView {
+  width: 50%;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #efefef;
+  border: none;
+  border-radius: 0.5rem;
+  color: #444;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btnAdminView:hover {
+  background-color: #c0cad8;
+}
+.previewicon {
+  width: 35px;
+  height: 35px;
+}
+
+.btnAdminRemove1 {
+  width: 50%;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #efefef;
+  border: none;
+  border-radius: 0.5rem;
+  color: #444;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btnAdminRemove1:hover {
+  background-color: #c0cad8;
+}
+.trash1icon {
+  height: 30px;
+  width: 23px;
+}
